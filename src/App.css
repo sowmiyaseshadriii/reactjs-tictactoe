@@ -29,8 +29,7 @@
   flex-direction: column;
 }
 #head{
-  font-size: 25px;
-  padding: 20px;
+   padding: 20px;
 }
 .square:nth-child(7), .square:nth-child(8), .square:nth-child(9){
   border-bottom: 0;
@@ -43,4 +42,9 @@
 }
 .square:nth-child(3n){
   border-right: 0;
+}
+#status{
+  font-weight:bold;
+  padding:10px;
+  color:#eeeeee;
 }
